@@ -1,0 +1,36 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\evidence-triage.md": "0bfc8d8e0f59189680955d98904f406e44a12c3e3e1693b3f377b84142f80989",
+    "references\\capabilities\\proxy-chain.md": "d46c59a2a7920ba91b3c2ce9e7a422583e01d17fd63e4fc7fc8a0eeaedada25f",
+    "references\\capabilities\\proxy-entry.md": "2716135de072b779b0a4dd8316209af6614905c02ca99da71b5af39a0dcfcc25",
+    "references\\capabilities\\ssh-tunnel.md": "33ea9f35fcd41292535e93909d4856dae38e43875a2156dfd926e4714645d476",
+    "references\\capabilities\\web-archive.md": "773df91c100af7451bfa2a99a9ecc34c6e3e0024d868af2f6b85a894d512f76c",
+    "references\\capabilities\\wireguard-config.md": "f36fd11916bbeadb9811b9e5c21ff27f2284560ad84218f96e96cf15eccba012",
+    "references\\capability-index.md": "2d69a664f3b587440de6f450ed326d5ba47e1667104469acd3705c575cd131b5",
+    "references\\cheatsheet.md": "7febc33edc2b373d92bbd71b75ab322ac842ff377619d498b39e6144648c8a2f",
+    "references\\glossary.md": "e3469c992041b8ff29a8b699111fe4c89fdfb15a016876e479c9135fb7b1fd6e",
+    "references\\overview.md": "14235857213db0d5992f6d41c3d6ab9d17b2917ba5ba9a197049620cd1cb558c",
+    "SKILL.md": "df112d2358983b4dc1c2a05f27f96c71c159bb349980df87844cf08defcb28a8"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.fq-book",
+  "bundle_sha256": "300b3abbbe5c51e46d16653c0685f48d0b31a0ae1d0670a7fc26d4cf27f4817c",
+  "variant": "single",
+  "run_id": "run-20261107-110631-2b2c46",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 6,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
